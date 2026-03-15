@@ -359,8 +359,6 @@ dialog::backdrop {
   margin-bottom: 15px;
   box-sizing: border-box;
 }
-
-/* Responsive modal */
 @media screen and (max-width: 576px) {
   dialog#task-modal {
     width: 95%;
