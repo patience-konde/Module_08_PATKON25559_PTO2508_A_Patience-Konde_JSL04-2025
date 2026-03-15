@@ -59,14 +59,14 @@ function openModal(task) {
 }
 
 /**
- *thi is function to Close modal
+ * Close modal
  */
 function closeModal() {
   modal.close();
   currentTask = null;
 }
 
-// ====== This is Event Listeners ======
+// ====== Event Listeners ======
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   if (!currentTask) return;
