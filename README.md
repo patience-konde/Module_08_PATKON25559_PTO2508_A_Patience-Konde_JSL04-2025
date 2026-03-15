@@ -35,3 +35,54 @@ kanban-board/
 │── scripts.js          # DOM manipulation & modal logic
 │── initialData.js      # Initial tasks dataset
 │── assets/             # Logos, icons, favicon
+
+## 🖥️ Usage
+
+1. **View Tasks**  
+   Tasks are automatically displayed in their respective columns.
+
+2. **Edit Tasks**  
+   - Click on a task card.  
+   - The modal opens with task details.  
+   - Update the title, description, or status.  
+   - Save changes to re‑render the board.
+
+3. **Close Modal**  
+   - Use the **×** button in the top‑right corner.  
+   - Or click outside the modal (backdrop).
+   - 
+  ## 📐 Design Reference
+- Fonts: Plus Jakarta Sans
+- Layout & styling: Based on provided Figma design
+- Color variables and shadows defined in :root for consistency.
+
+## 🛠️ Technologies Used
+- HTML5 – Semantic structure
+- CSS3 – Flexbox, Grid, media queries, custom properties
+- JavaScript (ES6+) – DOM manipulation, event handling, modular functions
+
+## 📖 Documentation
+Major functions in scripts.js include:
+- renderTasks(tasks) → Renders tasks into columns
+- updateColumnCounts(tasks) → Updates column headers with task counts
+- openModal(task) → Opens modal with task details
+- closeModal() → Closes modal
+Each function is documented with JSDoc comments for clarity.
+
+## 🤝 Contributing
+Contributions are welcome!
+- Fork the repository
+- Create a new branch (feature/new-task)
+- Commit changes
+- Push to your branch
+- Open a Pull Request
+
+## 📜 License
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute with attribution.
+
+## 🙌 Acknowledgements
+- Figma design inspiration provided in project brief
+- Google Fonts for typography
+- MDN Web Docs for reference
+
